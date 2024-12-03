@@ -1,0 +1,17 @@
+---
+const secciones = [
+    {id: "Estudios", titulo: "Studies"},
+    {id: "Skills", titulo: "Skills"},
+    {id: "Trabajo", titulo: "Experience"},
+    {id: "Proyectos", titulo: "Projects"},
+    {id: "Referencia", titulo: "References"}
+]
+---
+
+<nav class=" flex items-center justify-center gap-[28px] text-[20px] w-[560px] bg-[#444196] text-[#F5F5F5] p-[6px] rounded-[12px] font-jaro font-bold">
+    {secciones.map(seccion => (
+        <a href={`#${seccion.id}`}>
+            {seccion.titulo}
+        </a>
+    ))}
+</nav>
