@@ -1,0 +1,23 @@
+---
+const {name, age} = Astro.props;
+// el texto que se pasa como hijo sera el contenido del span
+
+interface Props{
+    name : string,
+    age? : string
+}
+---
+
+<span class="text-[#76D42F]">{name}</span>
+<!-- 
+
+lo que pasa es que de normal en el const {name}, ya tendria que coger esa variable
+y en el span al poner {name}, ya deberia aparecer, en el index la variable para
+autocompletar, pero no aparece, entonces creamos una interface (en esta caso), para
+que me aparezca para autocompletar (significa que la esta cogiendo).
+
+El interrogante sirve para que sea opcional, entonces si pones el {age} en el index y
+no esta como opcional, te saldra un fallo de que te falta declarar esa variable en la
+class.
+
+-->

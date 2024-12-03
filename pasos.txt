@@ -1,0 +1,60 @@
+Layout
+------
+- creamos el hmtl
+- inserto el fondo en todo el proyecto
+
+Index
+-----
+creo una seccion (inicio)
+- creo el "logo" de la esquina superior derecha
+    * añado el color de texto en todo el div (padre)
+    * creo otro div (hijo), añado el texto y el estilo de fuente
+    * inserto img (padre)
+
+- creo el div que va a contener la presentacion
+
+    [   INICIO
+        {
+            añado el componente "Barranav" {
+                problema con las variables, utilizo interface para que funcione
+                le añado los estilos y los enlaces
+            }
+
+            contenedor del nombre, resumen y redes {
+                nombre {
+                    cambio el color con un span al nombre
+                    creo el componente "Saludo", -- NO FUNCIONA --
+                }
+                resumen {
+                    añado estilo de fuente
+                    cambio el color con un span a DAW
+                }
+                redes {
+                    añado la img (GitHub), con el enlace
+                    añado la img (IG), con el enlace
+                }
+            }
+
+            perfil {
+                añado la foto del perfil
+            }
+        }
+    ]
+
+    [   
+        Json {
+            creo un json y meto todos los datos
+        }
+
+        scroll {
+            voy a añadir el scroll
+            tengo que modificar las secciones componentes y
+            la Barranav.
+        }
+        
+        Estudios {
+            creo el componente
+            utilizo el json
+            utilizo json.map (es un bucle)
+        }
+    ]

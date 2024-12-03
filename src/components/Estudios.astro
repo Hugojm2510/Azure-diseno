@@ -1,0 +1,18 @@
+---
+import estudios from "../data/estudios.json"
+---
+
+<section id="Estudios" class="p-[30px] ml-[40px] h-screen">
+    <h1 class="flex justify-end mr-[60px] text-[#76D42F] text-[35px] font-jaro"><a href="#inicio">STUDIES</a></h1>
+    <div class="flex justify-between mr-[55px]">
+        <ul class="flex flex-col gap-[30px]">
+            {estudios.map(item => (
+                <li>
+                    <strong class="text-[40px] text-[#1D8EC2] font-jetBrains">{item.periodo}</strong>
+                    <p class="text-[20px] text-[#F5F5F5] font-jetBrains">{item.descripcion}</p>
+                </li>
+            ))}
+        </ul>
+        <img class="flex h-[400px]" src="../../public/Icono estudio.png" alt="">
+    </div>
+</section>

@@ -1,0 +1,19 @@
+{
+    "Tecnologias": {
+        "html": "HTML",
+        "css": "CSS",
+        "astro": "ASTRO", 
+        "php": "PHP",
+        "javascript": "JavaScript",
+        "git": "GIT",
+        "tailwind": "Tailwind"
+    },
+
+    "DevTools": {
+        "github": "Github",
+        "visual": "Visual Studio Code",
+        "figma": "Figma",
+        "postman": "Postman",
+        "intellij": "IntelliJ"
+    }
+}
