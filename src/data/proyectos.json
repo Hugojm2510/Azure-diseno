@@ -1,0 +1,17 @@
+[
+    {
+        "img": "../../public/Icono proyecto.png",
+        "name": "API",
+        "description": "Server project, where we will create a project and add developers and technologies to it."
+    },
+    {
+        "img": "../../public/Icono proyecto.png",
+        "name": "Twitter",
+        "description": "This project involves creating a Twitter clone. You will have options to log in or register if you do not have an account."
+    },
+    {
+        "img": "../../public/Icono proyecto.png",
+        "name": "Portfolio",
+        "description": "This project focuses on creating a portfolio to showcase our programming skills."
+    }
+]

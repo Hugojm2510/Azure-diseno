@@ -1,0 +1,36 @@
+---
+const {size = "24px"} = Astro.props;
+
+interface Props{
+    size? : string,
+}
+---
+
+<div class="mano-animada" style={`font-size: ${size};`}>👋</div>
+
+<style>
+    @keyframes wave {
+        0%, 100% {
+            transform: rotate(0deg); /* posicion inicial y final */
+        }
+        50% {
+            transform: translateX(20deg); /* desplazamiento a la derecha */
+        }
+    }
+
+    .mano-animada {
+        display: inline-block;
+        transform-origin: bottom right;
+        animation: wave 1s ease-in-out infinite; /* duracion y bucle */
+    }
+</style>
+
+<!-- 
+
+Interfaz WaveHandProps: Definimos la interfaz que declara las propiedades que el componente puede recibir.
+En este caso, solo tenemos una propiedad size que es opcional (puede o no ser pasada). Tipo size?: string:
+La propiedad size es opcional, y si no se pasa, se asigna un valor por defecto de 24px. Desestructuración
+de las propiedades: Usamos const { size = "24px" } para extraer la propiedad size desde Astro.props y
+asignarle un valor por defecto.
+
+-->

@@ -1,0 +1,10 @@
+{
+    "trabajo1": {
+        "periodo": "3 months",
+        "descripcion": "The first work experience was at Informáticas Pavón in El Viso del Alcor. I was responsible for checking the condition of the products and the reason for their return."
+    },
+    "trabajo2": {
+        "periodo": "5 months",
+        "descripcion": "The internship for the higher degree was at Databay Solution, and after the internship, I stayed for another 2 months. During my time there, I worked on creating APIs for projects they had."
+    }
+}

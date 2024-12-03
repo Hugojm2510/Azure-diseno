@@ -1,0 +1,23 @@
+---
+import trabajo from "../data/trabajo.json"
+---
+
+<section id="Trabajo" class="h-screen flex flex-col p-[30px] gap-[50px]">
+    <h1 class="flex justify-center text-[#76D42F] text-[35px] font-jaro"><a href="#inicio">EXPERIENCE</a></h1>
+    <div class="flex flex-col gap-[50px]">
+        <div class="flex justify-center gap-[100px]">
+            <img class="flex" src="../../public/IP.png" alt="">
+            <div class="flex flex-col mt-[30px] gap-[20px] w-[800px]">
+                <h1 class="text-[#76D42F] text-[40px] font-jaro">{trabajo.trabajo1.periodo}</h1>
+                <p class="text-[#F5F5F5] text-[18px] font-jetBrains">{trabajo.trabajo1.descripcion}</p>
+            </div>
+        </div>
+        <div class="flex justify-center gap-[50px]">
+            <div class="flex flex-col mt-[30px] gap-[20px] w-[800px]">
+                <h1 class="text-[#76D42F] text-[40px] font-jaro">{trabajo.trabajo2.periodo}</h1>
+                <p class="text-[#F5F5F5] text-[18px] font-jetBrains">{trabajo.trabajo2.descripcion}</p>
+            </div>
+            <img src="../../public/DS.png" alt="">
+        </div>
+    </div>
+</section>
